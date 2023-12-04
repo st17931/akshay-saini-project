@@ -1,0 +1,68 @@
+
+
+.navBar{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+    border: 1px solid black;
+}
+
+.navBar > img{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    
+}
+
+.list{
+    display: flex;
+    list-style-type: none;
+    gap:15px;
+    font-size: 24px;
+}
+
+.searchBoxDiv{
+    display:flex;
+    justify-content: center;
+}
+
+.searchBoxDiv > input{
+    margin:10px 0 10px 0;
+    padding: 10px;
+    background:brown;
+    border-radius: 10%;
+    color:white;
+}
+
+.cardDiv{
+    padding:10px;
+    
+    width:100px;
+    background-color: #f0f0f0;
+}
+
+.cardDiv:hover{
+    cursor:pointer;
+    border:1px solid black;
+}
+
+.cardDiv > img{
+    width:100%;
+}
+
+.bodyDiv{
+    display:flex;
+    flex-wrap: wrap;
+    gap:10px;
+}
+
+.flex{
+    display: flex;
+}
+
+.btn{
+    margin-top:20px;
+    margin-left: 20px;
+    height:30px;
+}
